@@ -1,0 +1,22 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  learner_created: false
+- name: main.py
+  visible: true
+  text: |
+    if __name__ == "__main__":
+        # Write your solution here
+        pass
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Failed
+feedback:
+  message: Incorrect
+  time: Thu, 21 Apr 2022 18:23:37 UTC
+  actual: |
+    <zip object at 0x000002B78E58BC00>
+record: -1
